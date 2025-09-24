@@ -21,7 +21,7 @@ O arquivo `bootloader.asm` contém o seguinte fluxo:
 ```bash
 ~$ yasm -f bin -o bootloader.asm bootloader.bin
 ``` 
-[imagem do resultado](./imagens/compilando.png)
+[imagem do resultado](#./imagens/compilando.png)
 
 ## Executando
 O projeto utiliza o compilador [Yasm](https://yasm.tortall.net/). Para compilaR:
@@ -29,4 +29,4 @@ O projeto utiliza o compilador [Yasm](https://yasm.tortall.net/). Para compilaR:
 qemu-system-i386 -hda bootloader.bin
 ```
 **Resultado:**
-[Imagem do bootloader em execução](./imagens/bootloader.png)
+[Imagem do bootloader em execução](#./imagens/bootloader.png)
